@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.App {
+  text-align: center;
+  background: -webkit-linear-gradient(-90deg, rgba(182, 244, 192, 0.44), #e6e7f1);
+  background-image: "url(American-Flag.jpg)";
+  background-repeat: "no-repeat";
+  background-size: "cover";
+  height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.iu-deletePreview {
+  display: none !important;
+}
+
+
+.Container {
+height: 100vh;
+}
+.AppAdmin {
+  display: flex;
+  flex-direction: row;
+}
+.Table, .displayImages {
+    box-sizing: border-box;
+    width: 45%;
+    height: 100vh;
+    padding: 1%;
+    overflow: scroll;
+
+}
+td {
+  padding: 10px;
+}
+.images {
+  color: red;
+  cursor: pointer;
+}
+.displayImages {
+  /*display: flex;
+  flex-direction: column;*/
+  height: 100vh;
+  overflow: scroll
+}
+
+.displayImages img {
+  align-self: center;
+  margin: 20px;
+}
+
+.firstLabel {
+  margin-top: 0;
+}
+label {
+  display: block;
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px 40px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+span {
+  display: block;
+}
+
+.complete {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.complete h1 {
+  font-size: 20px;
+}
+
+.requestButton {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+

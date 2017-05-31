@@ -1,0 +1,109 @@
+2017-05-21T18:11:22.675273000 0.084834s notice: Recursively removing directory /Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data/tmp
+2017-05-21T18:11:22.678281000 0.087846s notice: Initializing directory /Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data
+2017-05-21T18:11:22.678432000 0.087991s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data' did not already exist or is empty.)
+2017-05-21T18:11:22.678485000 0.088044s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-05-21T18:11:22.690866000 0.100426s notice: Running on Darwin 16.3.0 x86_64
+2017-05-21T18:11:22.690935000 0.100494s notice: Loading data from directory /Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data
+2017-05-21T18:11:22.833098000 0.242658s info: Automatically using cache size of 100 MB
+2017-05-21T18:11:22.833115000 0.242674s warn: Cache size does not leave much memory for server and query overhead (available memory: 633 MB).
+2017-05-21T18:11:22.833124000 0.242683s warn: Cache size is very low and may impact performance.
+2017-05-21T18:11:22.834360000 0.243919s notice: Listening for intracluster connections on port 29015
+2017-05-21T18:11:22.840887000 0.250447s notice: Listening for client driver connections on port 28015
+2017-05-21T18:11:22.841116000 0.250675s notice: Listening for administrative HTTP connections on port 8080
+2017-05-21T18:11:22.841121000 0.250680s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-05-21T18:11:22.841129000 0.250688s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-05-21T18:11:22.841132000 0.250691s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-05-21T18:11:22.841138000 0.250697s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-21T18:11:22.841145000 0.250704s notice: Server ready, "Anthonys_Air_home_c8m" b732b53b-4a5a-434f-9711-50c8e4e16241
+2017-05-21T18:14:44.550935000 201.953951s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: Starting a new Raft election for term 1.
+2017-05-21T18:14:44.551888000 201.954904s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: Added replica on this server.
+2017-05-21T18:14:44.564771000 201.967787s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: This server is Raft leader for term 1. Latest log index is 0.
+2017-05-21T22:38:11.295959000 9975.067510s notice: Server got SIGINT from pid 907, uid 501; shutting down...
+2017-05-21T22:38:11.296194000 9975.067745s notice: Shutting down client connections...
+2017-05-21T22:38:11.296440000 9975.067991s notice: All client connections closed.
+2017-05-21T22:38:11.296446000 9975.067997s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-05-21T22:38:11.314237000 9975.085787s notice: Storage engine shut down.
+2017-05-22T07:51:01.587703000 0.071203s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-05-22T07:51:01.594536000 0.078029s notice: Running on Darwin 16.3.0 x86_64
+2017-05-22T07:51:01.594597000 0.078089s notice: Loading data from directory /Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data
+2017-05-22T07:51:01.641446000 0.124937s info: Automatically using cache size of 100 MB
+2017-05-22T07:51:01.641462000 0.124953s warn: Cache size does not leave much memory for server and query overhead (available memory: 1067 MB).
+2017-05-22T07:51:01.641469000 0.124960s warn: Cache size is very low and may impact performance.
+2017-05-22T07:51:01.642612000 0.126104s notice: Listening for intracluster connections on port 29015
+2017-05-22T07:51:01.666278000 0.149770s notice: Listening for client driver connections on port 28015
+2017-05-22T07:51:01.666706000 0.150197s notice: Listening for administrative HTTP connections on port 8080
+2017-05-22T07:51:01.666710000 0.150201s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-05-22T07:51:01.666715000 0.150206s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-05-22T07:51:01.666722000 0.150213s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-05-22T07:51:01.666726000 0.150216s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-22T07:51:01.666749000 0.150240s notice: Server ready, "Anthonys_Air_home_c8m" b732b53b-4a5a-434f-9711-50c8e4e16241
+2017-05-22T07:51:03.113041000 1.596424s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: Starting a new Raft election for term 2.
+2017-05-22T07:51:03.142232000 1.625614s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: This server is Raft leader for term 2. Latest log index is 3.
+2017-05-22T08:45:11.836537000 808.947700s notice: Server got SIGINT from pid 771, uid 501; shutting down...
+2017-05-22T08:45:11.836720000 808.947883s notice: Shutting down client connections...
+2017-05-22T08:45:11.836992000 808.948154s notice: All client connections closed.
+2017-05-22T08:45:11.837002000 808.948164s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-05-22T08:45:11.851382000 808.962545s notice: Storage engine shut down.
+2017-05-22T08:45:17.178615000 0.479463s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-05-22T08:45:17.197922000 0.498765s notice: Running on Darwin 16.3.0 x86_64
+2017-05-22T08:45:17.197999000 0.498839s notice: Loading data from directory /Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data
+2017-05-22T08:45:17.230603000 0.531444s info: Automatically using cache size of 100 MB
+2017-05-22T08:45:17.230615000 0.531455s warn: Cache size does not leave much memory for server and query overhead (available memory: 893 MB).
+2017-05-22T08:45:17.230622000 0.531463s warn: Cache size is very low and may impact performance.
+2017-05-22T08:45:17.231533000 0.532374s notice: Listening for intracluster connections on port 29015
+2017-05-22T08:45:17.248053000 0.548894s notice: Listening for client driver connections on port 28015
+2017-05-22T08:45:17.248252000 0.549093s notice: Listening for administrative HTTP connections on port 8080
+2017-05-22T08:45:17.248256000 0.549096s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-05-22T08:45:17.248259000 0.549099s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-05-22T08:45:17.248263000 0.549103s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-05-22T08:45:17.248343000 0.549183s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-22T08:45:17.248346000 0.549186s notice: Server ready, "Anthonys_Air_home_c8m" b732b53b-4a5a-434f-9711-50c8e4e16241
+2017-05-22T08:45:18.943060000 2.243877s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: Starting a new Raft election for term 3.
+2017-05-22T08:45:18.961981000 2.262798s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: This server is Raft leader for term 3. Latest log index is 6.
+2017-05-22T08:52:58.851653000 461.494513s notice: Server got SIGINT from pid 771, uid 501; shutting down...
+2017-05-22T08:52:58.851951000 461.494810s notice: Shutting down client connections...
+2017-05-22T08:52:58.852232000 461.495091s notice: All client connections closed.
+2017-05-22T08:52:58.852239000 461.495098s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-05-22T08:52:58.857000000 461.499859s notice: Storage engine shut down.
+2017-05-22T08:59:49.959173000 0.173226s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-05-22T08:59:49.974944000 0.188987s notice: Running on Darwin 16.3.0 x86_64
+2017-05-22T08:59:49.975006000 0.189048s notice: Loading data from directory /Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data
+2017-05-22T08:59:50.019026000 0.233068s info: Automatically using cache size of 100 MB
+2017-05-22T08:59:50.019054000 0.233096s warn: Cache size does not leave much memory for server and query overhead (available memory: 1047 MB).
+2017-05-22T08:59:50.019064000 0.233105s warn: Cache size is very low and may impact performance.
+2017-05-22T08:59:50.019867000 0.233909s notice: Listening for intracluster connections on port 29015
+2017-05-22T08:59:50.038265000 0.252307s notice: Listening for client driver connections on port 28015
+2017-05-22T08:59:50.038463000 0.252504s notice: Listening for administrative HTTP connections on port 8080
+2017-05-22T08:59:50.038467000 0.252508s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-05-22T08:59:50.038470000 0.252511s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-05-22T08:59:50.038472000 0.252513s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-05-22T08:59:50.038570000 0.252611s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-22T08:59:50.038573000 0.252614s notice: Server ready, "Anthonys_Air_home_c8m" b732b53b-4a5a-434f-9711-50c8e4e16241
+2017-05-22T08:59:51.647966000 1.862008s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: Starting a new Raft election for term 4.
+2017-05-22T08:59:51.666947000 1.880989s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: This server is Raft leader for term 4. Latest log index is 9.
+2017-05-22T09:00:45.213245000 55.425834s notice: Server got SIGINT from pid 771, uid 501; shutting down...
+2017-05-22T09:00:45.213551000 55.426140s notice: Shutting down client connections...
+2017-05-22T09:00:45.213822000 55.426411s notice: All client connections closed.
+2017-05-22T09:00:45.213829000 55.426417s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-05-22T09:00:45.219106000 55.431655s notice: Storage engine shut down.
+2017-05-22T11:00:30.107060000 40.096671s notice: Running rethinkdb 2.3.5 (CLANG 8.0.0 (clang-800.0.38))...
+2017-05-22T11:00:30.120760000 40.110365s notice: Running on Darwin 16.3.0 x86_64
+2017-05-22T11:00:30.120856000 40.110458s notice: Loading data from directory /Users/Apegraduate8/Desktop/habitat-project/habitat-app/rethinkdb_data
+2017-05-22T11:00:30.152299000 40.141902s info: Automatically using cache size of 100 MB
+2017-05-22T11:00:30.152337000 40.141939s warn: Cache size does not leave much memory for server and query overhead (available memory: 571 MB).
+2017-05-22T11:00:30.152357000 40.141959s warn: Cache size is very low and may impact performance.
+2017-05-22T11:00:30.153507000 40.143109s notice: Listening for intracluster connections on port 29015
+2017-05-22T11:00:30.180223000 40.169825s notice: Listening for client driver connections on port 28015
+2017-05-22T11:00:30.180491000 40.170093s notice: Listening for administrative HTTP connections on port 8080
+2017-05-22T11:00:30.180503000 40.170105s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2017-05-22T11:00:30.180505000 40.170107s notice: Listening on driver addresses: 127.0.0.1, ::1
+2017-05-22T11:00:30.180507000 40.170109s notice: Listening on http addresses: 127.0.0.1, ::1
+2017-05-22T11:00:30.180517000 40.170118s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2017-05-22T11:00:30.180518000 40.170120s notice: Server ready, "Anthonys_Air_home_c8m" b732b53b-4a5a-434f-9711-50c8e4e16241
+2017-05-22T11:00:31.449573000 41.439176s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: Starting a new Raft election for term 5.
+2017-05-22T11:00:31.479417000 41.469020s info: Table 5ea87817-0242-4d27-b8b4-1ab4ed28974c: This server is Raft leader for term 5. Latest log index is 12.
+2017-05-22T18:43:30.133650000 25635.447560s notice: Server got SIGINT from pid 771, uid 501; shutting down...
+2017-05-22T18:43:30.139089000 25635.452998s notice: Shutting down client connections...
+2017-05-22T18:43:30.147410000 25635.461320s notice: All client connections closed.
+2017-05-22T18:43:30.147430000 25635.461339s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2017-05-22T18:43:30.249318000 25635.563228s notice: Storage engine shut down.
